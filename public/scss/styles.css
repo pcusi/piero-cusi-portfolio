@@ -1,0 +1,640 @@
+.dark-theme {
+  background-color: #16161A;
+  padding-top: 120px;
+}
+
+.pc__header {
+  margin-bottom: 140px;
+}
+
+.pc__header .pc__navbar {
+  background: #16161A;
+  padding: 0 120px;
+  -webkit-transition: all 1000ms;
+  transition: all 1000ms;
+  width: 100%;
+  position: relative;
+}
+
+.pc__header .pc__navbar .pc__nav .nav-item {
+  margin: 0 32px;
+}
+
+.pc__header .pc__navbar .pc__nav .nav-item .nav-link {
+  color: #F1ECEC;
+  font-size: 24px;
+}
+
+.pc__header .pc__navbar .pc__nav .nav-item .pc__cv {
+  background: #D32F2F;
+  color: #F1ECEC;
+  font-weight: normal;
+  font-size: 24px;
+  border-radius: 0;
+  padding: 8px 60px;
+}
+
+.pc__me {
+  margin-bottom: 140px;
+  position: relative;
+}
+
+.pc__me .pc__about {
+  padding: 0 120px;
+}
+
+.pc__me .pc__about .pc__title {
+  word-wrap: break-word;
+  color: #F1ECEC;
+  font-weight: bold;
+  font-size: 64px;
+  width: 518px;
+  height: auto;
+  margin-bottom: 44px;
+  width: 81%;
+}
+
+.pc__me .pc__about .pc__pre {
+  width: 81%;
+  height: auto;
+  word-wrap: break-word;
+  color: #F1ECEC;
+  font-size: 32px;
+  font-family: -apple-system, sans-serif;
+  margin-bottom: 44px;
+}
+
+.pc__me .pc__about .pc__btn {
+  background: #D32F2F;
+  color: #F1ECEC;
+  font-weight: normal;
+  font-size: 16px;
+  border-radius: 0;
+  padding: 16px 36px;
+}
+
+.pc__me .pc__about .pc__me__img {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(38f230f3-2f07-47cd-bdbe-5b89c5c71de0.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(38f230f3-2f07-47cd-bdbe-5b89c5c71de0.png);
+  mix-blend-mode: luminosity;
+}
+
+.pc__portfolio {
+  position: relative;
+}
+
+.pc__portfolio .pc__portfolio__items {
+  margin-bottom: 140px;
+  padding: 0 120px;
+}
+
+.pc__portfolio .pc__portfolio__items .pc__title {
+  word-wrap: break-word;
+  color: #F1ECEC;
+  font-weight: bold;
+  font-size: 64px;
+  margin-bottom: 140px;
+  width: 100%;
+  text-align: center;
+}
+
+.pc__portfolio .pc__portfolio__items .pc__flex__tech:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.pc__portfolio .pc__portfolio__items .pc__flex__tech p {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #F1ECEC;
+  margin: 0 32px;
+  text-transform: uppercase;
+}
+
+.pc__portfolio .pc__portfolio__items .square {
+  width: 10rem;
+  height: 10rem;
+  background: #D32F2F;
+}
+
+.pc__services__jumbotron {
+  background: #242629;
+  padding: 60px 96px;
+  margin-bottom: 140px;
+  -webkit-box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+}
+
+.pc__services__jumbotron .pc__title {
+  word-wrap: break-word;
+  color: #F1ECEC;
+  font-weight: bold;
+  font-size: 64px;
+  margin-bottom: 44px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.pc__services__jumbotron .pc__services__flex {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.pc__services__jumbotron .pc__services__flex .pc__service__card {
+  background: #16161A;
+  width: 33.33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 52px;
+  border-radius: 0;
+}
+
+.pc__services__jumbotron .pc__services__flex .pc__service__card .pc__service__card__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pc__services__jumbotron .pc__services__flex .pc__service__card .pc__service__card__body .pc__service__img {
+  margin-bottom: 36px;
+}
+
+.pc__services__jumbotron .pc__services__flex .pc__service__card .pc__service__card__body .pc__service__title {
+  font-style: normal;
+  font-weight: normal;
+  width: 190px;
+  height: 76px;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #F1ECEC;
+  margin-bottom: 36px;
+  word-wrap: break-word;
+}
+
+.pc__services__jumbotron .pc__services__flex .pc__service__card .pc__service__card__body .pc__btn {
+  background: #D32F2F;
+  color: #F1ECEC;
+  font-weight: normal;
+  font-size: 16px;
+  border-radius: 0;
+  padding: 16px 36px;
+  width: 276px;
+}
+
+.pc__clients {
+  margin-bottom: 140px;
+  padding: 0 120px;
+}
+
+.pc__clients .pc__title {
+  word-wrap: break-word;
+  color: #F1ECEC;
+  font-weight: bold;
+  font-size: 64px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+.pc__clients .pc__clients__flex {
+  width: 100%;
+}
+
+.pc__clients .pc__clients__flex .pc__client__card {
+  width: 33.33%;
+  background: #242629;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 140px;
+  border-radius: 0;
+  padding: 12px;
+}
+
+.pc__clients .pc__clients__flex .pc__client__card .pc__client__card__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+  .dark-theme {
+    background-color: #16161A;
+    padding-top: 48px;
+  }
+  .pc__header {
+    margin-bottom: 56px;
+  }
+  .pc__header .pc__navbar .pc__nav .nav-item {
+    margin: 0 32px;
+  }
+  .pc__header .pc__navbar .pc__nav .nav-item .nav-link {
+    color: #F1ECEC;
+    font-size: 16px;
+  }
+  .pc__header .pc__navbar .pc__nav .nav-item .pc__cv {
+    background: #D32F2F;
+    color: #F1ECEC;
+    font-weight: normal;
+    font-size: 16px;
+    border-radius: 0;
+    padding: 8px 60px;
+  }
+  .pc__me {
+    margin-bottom: 56px;
+    position: relative;
+  }
+  .pc__me .pc__about {
+    padding: 0 120px;
+  }
+  .pc__me .pc__about .pc__title {
+    word-wrap: break-word;
+    color: #F1ECEC;
+    font-weight: bold;
+    font-size: 52px;
+    width: 518px;
+    height: auto;
+    margin-bottom: 44px;
+    width: 81%;
+  }
+  .pc__me .pc__about .pc__pre {
+    width: 100%;
+    height: auto;
+    word-wrap: break-word;
+    color: #F1ECEC;
+    font-size: 24px;
+    font-family: -apple-system, sans-serif;
+    margin-bottom: 44px;
+  }
+  .pc__me .pc__about .pc__btn {
+    background: #D32F2F;
+    color: #F1ECEC;
+    font-weight: normal;
+    font-size: 16px;
+    border-radius: 0;
+    padding: 12px 24px;
+  }
+  .pc__portfolio {
+    margin-bottom: 56px;
+  }
+  .pc__portfolio .pc__portfolio__items .pc__title {
+    font-size: 52px;
+    margin-bottom: 56px;
+  }
+  .pc__portfolio .pc__portfolio__items .pc__flex__tech p {
+    font-size: 24px;
+  }
+  .pc__portfolio .pc__portfolio__items .pc__img__tech {
+    width: 65%;
+    height: 65%;
+  }
+  .pc__portfolio .pc__portfolio__items .square {
+    width: 5rem;
+    height: 5rem;
+    background: #D32F2F;
+  }
+  .pc__services__jumbotron {
+    margin-bottom: 56px;
+  }
+  .pc__services__jumbotron .pc__title {
+    font-size: 52px;
+  }
+  .pc__services__jumbotron .pc__services__flex .pc__service__card {
+    width: 33.33%;
+    margin: 0 40px;
+  }
+  .pc__services__jumbotron .pc__services__flex .pc__service__card .pc__service__card__body .pc__service__img {
+    margin-bottom: 20px;
+  }
+  .pc__services__jumbotron .pc__services__flex .pc__service__card .pc__service__card__body .pc__service__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .pc__services__jumbotron .pc__services__flex .pc__service__card .pc__service__card__body .pc__btn {
+    font-size: 16px;
+    padding: 12px 24px;
+    width: 180px;
+  }
+  .pc__clients {
+    padding: 0 60px;
+  }
+  .pc__clients .pc__title {
+    margin-bottom: 56px;
+  }
+  .pc__clients .pc__clients__flex .pc__client__card {
+    margin: 0 60px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .dark-theme {
+    background-color: #16161A;
+    padding-top: 16px;
+  }
+  .pc__header {
+    margin-bottom: 60px;
+  }
+  .pc__header .pc__navbar {
+    padding: 0 32px;
+  }
+  .pc__header .pc__navbar .nav-item {
+    margin: 0 12px;
+  }
+  .pc__header .pc__navbar .nav-item .nav-link {
+    color: #F1ECEC;
+    font-size: 20px;
+  }
+  .pc__header .pc__navbar .nav-item .pc__cv {
+    background: #D32F2F;
+    color: #F1ECEC;
+    font-weight: normal;
+    font-size: 20px;
+    border-radius: 0;
+    padding: 8px 32px;
+  }
+  .pc__me {
+    margin-bottom: 120px;
+    padding: 0 32px;
+    width: 100%;
+  }
+  .pc__me .pc__about {
+    padding: 0 32px;
+  }
+  .pc__me .pc__about .pc__title {
+    font-size: 44px;
+    width: 100%;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .pc__me .pc__about .pc__pre {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .pc__me .pc__about .pc__btn {
+    background: #D32F2F;
+    color: #F1ECEC;
+    font-weight: normal;
+    font-size: 16px;
+    border-radius: 0;
+    padding: 12px 24px;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+  }
+  .pc__portfolio {
+    margin-bottom: 120px;
+  }
+  .pc__portfolio .pc__portfolio__items {
+    margin-bottom: 120px;
+  }
+  .pc__portfolio .pc__portfolio__items .pc__title {
+    margin-bottom: 32px;
+  }
+  .pc__portfolio .pc__portfolio__items .pc__portfolio__flex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .pc__portfolio .pc__portfolio__items .pc__img__tech {
+    margin-bottom: 32px;
+  }
+  .pc__portfolio .pc__portfolio__items .pc__flex__tech p {
+    display: none;
+  }
+  .pc__services__jumbotron {
+    margin-bottom: 32px;
+  }
+  .pc__services__jumbotron .pc__title {
+    font-size: 44px;
+  }
+  .pc__services__jumbotron .pc__services__flex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .pc__services__jumbotron .pc__services__flex .pc__service__card {
+    width: 100%;
+    margin-bottom: 32px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .pc__services__jumbotron .pc__services__flex .pc__service__card .pc__service__card__body .pc__service__img {
+    margin-bottom: 20px;
+  }
+  .pc__services__jumbotron .pc__services__flex .pc__service__card .pc__service__card__body .pc__service__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .pc__services__jumbotron .pc__services__flex .pc__service__card .pc__service__card__body .pc__btn {
+    font-size: 16px;
+    padding: 12px 24px;
+    width: 180px;
+  }
+  .pc__clients {
+    padding: 0 32px;
+  }
+  .pc__clients .pc__title {
+    margin-bottom: 56px;
+  }
+  .pc__clients .pc__clients__flex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .pc__clients .pc__clients__flex .pc__client__card {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 576px) {
+  .dark-theme {
+    background-color: #16161A;
+    padding-top: 16px;
+  }
+  .pc__header {
+    margin-bottom: 60px;
+  }
+  .pc__header .pc__navbar {
+    padding: 0 32px;
+  }
+  .pc__header .pc__navbar .nav-item {
+    margin: 0 12px;
+  }
+  .pc__header .pc__navbar .nav-item .nav-link {
+    color: #F1ECEC;
+    font-size: 20px;
+  }
+  .pc__header .pc__navbar .nav-item .pc__cv {
+    background: #D32F2F;
+    color: #F1ECEC;
+    font-weight: normal;
+    font-size: 20px;
+    border-radius: 0;
+    padding: 8px 32px;
+  }
+  .pc__me {
+    margin-bottom: 60px;
+    padding: 0 32px;
+    width: 100%;
+  }
+  .pc__me .pc__about {
+    padding: 0 32px;
+  }
+  .pc__me .pc__about .pc__title {
+    font-size: 32px;
+    width: 100%;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .pc__me .pc__about .pc__pre {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .pc__me .pc__about .pc__btn {
+    background: #D32F2F;
+    color: #F1ECEC;
+    font-weight: normal;
+    font-size: 16px;
+    border-radius: 0;
+    padding: 12px 24px;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .pc__portfolio {
+    margin-bottom: 60px;
+  }
+  .pc__portfolio .pc__portfolio__items {
+    margin-bottom: 60px;
+    padding: 0 32px;
+  }
+  .pc__portfolio .pc__portfolio__items .pc__title {
+    margin-bottom: 32px;
+    font-size: 32px;
+  }
+  .pc__portfolio .pc__portfolio__items .pc__portfolio__flex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .pc__portfolio .pc__portfolio__items .pc__img__tech {
+    margin-bottom: 32px;
+  }
+  .pc__portfolio .pc__portfolio__items .pc__flex__tech p {
+    display: none;
+  }
+  .pc__portfolio .pc__portfolio__items .pc__flex__tech .square {
+    width: 4rem;
+    height: 4rem;
+  }
+  .pc__services__jumbotron {
+    margin-bottom: 32px;
+    padding: 32px;
+  }
+  .pc__services__jumbotron .pc__title {
+    margin-bottom: 32px;
+    width: 100%;
+    font-size: 32px;
+  }
+  .pc__services__jumbotron .pc__services__flex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .pc__services__jumbotron .pc__services__flex .pc__service__card {
+    width: 100%;
+    margin-bottom: 32px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .pc__services__jumbotron .pc__services__flex .pc__service__card .pc__service__card__body .pc__service__img {
+    margin-bottom: 20px;
+  }
+  .pc__services__jumbotron .pc__services__flex .pc__service__card .pc__service__card__body .pc__service__title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .pc__services__jumbotron .pc__services__flex .pc__service__card .pc__service__card__body .pc__btn {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  .pc__clients {
+    padding: 0 32px;
+  }
+  .pc__clients .pc__title {
+    margin-bottom: 32px;
+    font-size: 32px;
+  }
+  .pc__clients .pc__clients__flex {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .pc__clients .pc__clients__flex .pc__client__card {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

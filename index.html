@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/scss/styles.css">
+    <link rel="stylesheet" href="public/scss/bootstrap.min.css">
+    <title>Piero Cusi - Frontend Developer</title>
+    <meta name="description" content="Arte abstracto en dibujo y pintura que transmite el movimiento continuo de la vida a través del color - Carolina de Rossi Artista.">
+    <meta name="author" content="Piero Cusi">
+    <meta name="keywords" content="Piero Cusi, pc">
+</head>
+
+<body class="dark-theme">
+    <!-- Piero Cusi Navbar -->
+    <section class="container-fluid pc__header">
+        <header class="navbar navbar-expand-lg pc__navbar" id="sticky-header">
+            <a class="navbar-brand" href="#">
+                <img src="public/asset/img/piero_cusi_logo.png" class="d-block img-fluid" alt="Piero Cusi">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto pc__nav">
+                    <li class="nav-item"><a href="#portfolio" class="nav-link" id="sticky-link">Works</a></li>
+                    <li class="nav-item"><a href="#my-services" class="nav-link" id="sticky-link">Services</a></li>
+                    <li class="nav-item"><a href="https://download1073.mediafire.com/8y08mxy6jmug/li9fuyj3gp9lvri/Cusi.Ruiz.CV.pdf" target="_blank" download class="nav-link pc__cv">Download CV</a></li>
+                </ul>
+            </div>
+        </header>
+    </section>
+    <!-- End navbar -->
+    <section class="container-fluid pc__me">
+        <div class="row pc__about">
+            <div class="col-xl-6 col-lg-12 col-md-12">
+                <h1 class="pc__title text-uppercase">Hello there, im Piero Cusi</h1>
+                <p class="pc__pre">
+                    <b>Freelance</b> and <b>Frontend Developer</b> based in Perú, Lima.
+                </p>
+                <button class="btn pc__btn">Contact me</button>
+            </div>
+            <div class="col-xl-6 col-lg-12 col-md-12">
+                <img src="public/asset/img/piero_cusi.png" class="d-block img-fluid mx-auto pc__me__img">
+            </div>
+        </div>
+    </section>
+    <!-- Piero Cusi Portfolio with Projects -->
+    <section class="container-fluid pc__portfolio" id="portfolio"></section>
+    <!-- End portfolio -->
+    <!-- Piero Cusi Services -->
+    <section class="jumbotron jumbotron-fluid pc__services__jumbotron" id="my-services">
+        <h1 class="pc__title">What do i do?</h1>
+        <div class="d-flex flex-row justify-content-center pc__services__flex" id="services"></div>
+    </section>
+    <!-- End services -->
+    <!-- Piero Cusi clients -->
+    <section class="pc__clients">
+        <h1 class="pc__title">Clients who trusted me</h1>
+        <div class="d-flex flex-row justify-content-center pc__clients__flex" id="clients"></div>      
+    </section>
+    <!-- End clients -->
+</body>
+</html>
+<script src="public/js/app.js"></script>
+<script src="public/js/scroll.js"></script>
