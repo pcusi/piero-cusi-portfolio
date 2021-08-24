@@ -9,7 +9,7 @@ function myPortfolioProjects() {
                     "second": "Benchmark",
                     "third": "Wireframes",
                     "four": "Copy writing"
-                }
+                },
             ],
             "link": "https://www.behance.net/gallery/125975265/QYPU-Sistema-de-Gestion-de-Proyectos"
         },
@@ -61,6 +61,14 @@ function myPortfolioProjects() {
                     "second": "Sass",
                     "third": "Bootstrap",
                     "four": "Openweather"
+                },
+            ],
+            "images": [
+                {
+                    "img_first": "public/asset/img/angular.png",
+                    "img_second": "public/asset/img/css.png",
+                    "img_third": "public/asset/img/bootstrap.png",
+                    "img_four": "public/asset/img/angular.png"
                 }
             ]
         },
@@ -105,19 +113,15 @@ function myPortfolioProjects() {
                         ${project.technologies.map((tech) => `
                         <div class="d-flex flex-row align-items-center pc__flex__tech">
                             <p>${tech.first}</p>
-                            <div class="square"></div>
                         </div>
                         <div class="d-flex flex-row align-items-center pc__flex__tech">
                             <p>${tech.second}</p>
-                            <div class="square"></div>
                         </div>
                         <div class="d-flex flex-row align-items-center pc__flex__tech">
                             <p>${tech.third}</p>
-                            <div class="square"></div>
                         </div>
                         <div class="d-flex flex-row align-items-center pc__flex__tech">
                             <p>${tech.four}</p>
-                            <div class="square"></div>
                         </div>
                         `).join('')}
                     </div>

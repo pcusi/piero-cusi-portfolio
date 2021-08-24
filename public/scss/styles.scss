@@ -103,14 +103,20 @@
                 font-size: 32px;
                 line-height: 38px;
                 color: $gray-2;
-                margin: 0 32px;
+                margin: 32px;
                 text-transform: uppercase;
             }
         }
         .square {
             width: 10rem;
             height: 10rem;
-            background: $primary-1;
+            position: relative;
+            .square__img {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
         }
     }
 }

@@ -119,14 +119,22 @@
   font-size: 32px;
   line-height: 38px;
   color: #F1ECEC;
-  margin: 0 32px;
+  margin: 32px;
   text-transform: uppercase;
 }
 
 .pc__portfolio .pc__portfolio__items .square {
   width: 10rem;
   height: 10rem;
-  background: #D32F2F;
+  position: relative;
+}
+
+.pc__portfolio .pc__portfolio__items .square .square__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .pc__services__jumbotron {
