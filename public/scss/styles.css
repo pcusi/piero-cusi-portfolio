@@ -1,6 +1,12 @@
+@font-face {
+  font-family: 'SF-Pro';
+  src: url("../asset/fonts/SF-Pro.ttf");
+}
+
 .dark-theme {
   background-color: #16161A;
   padding-top: 120px;
+  font-family: 'SF-Pro';
 }
 
 .pc__header {
@@ -347,6 +353,9 @@
     font-size: 52px;
     margin-bottom: 56px;
   }
+  .pc__portfolio .pc__portfolio__items .pc__btn {
+    width: 20%;
+  }
   .pc__portfolio .pc__portfolio__items .pc__flex__tech p {
     font-size: 24px;
   }
@@ -357,7 +366,6 @@
   .pc__portfolio .pc__portfolio__items .square {
     width: 5rem;
     height: 5rem;
-    background: #D32F2F;
   }
   .pc__services__jumbotron {
     margin-bottom: 56px;
@@ -477,10 +485,10 @@
     margin-bottom: 32px;
   }
   .pc__portfolio .pc__portfolio__items .pc__flex__tech p {
-    display: block;
+    display: none;
   }
   .pc__portfolio .pc__portfolio__items .pc__flex__tech .square {
-    display: none;
+    display: block;
   }
   .pc__services__jumbotron {
     margin-bottom: 32px;
@@ -620,11 +628,11 @@
     margin-bottom: 32px;
   }
   .pc__portfolio .pc__portfolio__items .pc__flex__tech p {
-    display: block;
+    display: none;
     text-align: center;
   }
   .pc__portfolio .pc__portfolio__items .pc__flex__tech .square {
-    display: none;
+    display: block;
   }
   .pc__services__jumbotron {
     margin-bottom: 32px;

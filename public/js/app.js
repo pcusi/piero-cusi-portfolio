@@ -11,6 +11,10 @@ function myPortfolioProjects() {
                     "four": "Copy writing"
                 },
             ],
+            "img_first": "public/asset/img/piero_cusi_research.png",
+            "img_second": "public/asset/img/piero_cusi_benchmark.png",
+            "img_third": "public/asset/img/piero_cusi_wireframe.png",
+            "img_four": "public/asset/img/piero_cusi_copy.png",
             "link": "https://www.behance.net/gallery/125975265/QYPU-Sistema-de-Gestion-de-Proyectos"
         },
         {
@@ -24,6 +28,10 @@ function myPortfolioProjects() {
                     "four": "Copy writing"
                 }
             ],
+            "img_first": "public/asset/img/piero_cusi_research.png",
+            "img_second": "public/asset/img/piero_cusi_benchmark.png",
+            "img_third": "public/asset/img/piero_cusi_wireframe.png",
+            "img_four": "public/asset/img/piero_cusi_copy.png",
             "link": "https://www.behance.net/gallery/125971815/Sistema-de-Gestion-de-Actividades-y-Notificaciones"
         },
         {
@@ -37,6 +45,10 @@ function myPortfolioProjects() {
                     "four": "Copy writing"
                 }
             ],
+            "img_first": "public/asset/img/piero_cusi_research.png",
+            "img_second": "public/asset/img/piero_cusi_benchmark.png",
+            "img_third": "public/asset/img/piero_cusi_wireframe.png",
+            "img_four": "public/asset/img/piero_cusi_copy.png",
             "link": "https://www.behance.net/gallery/125972051/CRM-Sistema-de-recursos-humanos"
         },
         {
@@ -50,6 +62,10 @@ function myPortfolioProjects() {
                     "four": "UX interaction"
                 }
             ],
+            "img_first": "public/asset/img/piero_cusi_wireframe.png",
+            "img_second": "public/asset/img/piero_cusi_research.png",
+            "img_third": "public/asset/img/piero_cusi_user_test.png",
+            "img_four": "public/asset/img/piero_cusi_interaction.png",
             "link": "https://www.behance.net/gallery/125975999/SCJ-Outsourcing"
         },
         {
@@ -63,14 +79,10 @@ function myPortfolioProjects() {
                     "four": "Openweather"
                 },
             ],
-            "images": [
-                {
-                    "img_first": "public/asset/img/angular.png",
-                    "img_second": "public/asset/img/css.png",
-                    "img_third": "public/asset/img/bootstrap.png",
-                    "img_four": "public/asset/img/angular.png"
-                }
-            ]
+            "img_first": "public/asset/img/piero_cusi_angular.png",
+            "img_second": "public/asset/img/piero_cusi_sass.png",
+            "img_third": "public/asset/img/piero_cusi_bootstrap.png",
+            "img_four": "public/asset/img/piero_cusi_openweather.png"
         },
         {
             "title": "Inca Expert Travel",
@@ -83,6 +95,10 @@ function myPortfolioProjects() {
                     "four": "Bootstrap"
                 }
             ],
+            "img_first": "public/asset/img/piero_cusi_html.png",
+            "img_second": "public/asset/img/piero_cusi_sass.png",
+            "img_third": "public/asset/img/piero_cusi_js.png",
+            "img_four": "public/asset/img/piero_cusi_bootstrap.png",
             "link": "https://pcusi.github.io/inka-expert-travel/"
         },
         {
@@ -96,6 +112,10 @@ function myPortfolioProjects() {
                     "four": "PHP"
                 }
             ],
+            "img_first": "public/asset/img/piero_cusi_html.png",
+            "img_second": "public/asset/img/piero_cusi_js.png",
+            "img_third": "public/asset/img/piero_cusi_css.png",
+            "img_four": "public/asset/img/piero_cusi_php.png",
             "link": "https://www.carolinaderossi.com/"
         }
     ];
@@ -113,15 +133,27 @@ function myPortfolioProjects() {
                         ${project.technologies.map((tech) => `
                         <div class="d-flex flex-row align-items-center pc__flex__tech">
                             <p>${tech.first}</p>
+                            <div class="square">
+                            <img src="${project.img_first}" class="d-block img-fluid square__img">
+                        </div>
                         </div>
                         <div class="d-flex flex-row align-items-center pc__flex__tech">
                             <p>${tech.second}</p>
+                            <div class="square">
+                            <img src="${project.img_second}" class="d-block img-fluid square__img">
+                        </div>
                         </div>
                         <div class="d-flex flex-row align-items-center pc__flex__tech">
                             <p>${tech.third}</p>
+                            <div class="square">
+                            <img src="${project.img_third}" class="d-block img-fluid square__img">
+                        </div>
                         </div>
                         <div class="d-flex flex-row align-items-center pc__flex__tech">
                             <p>${tech.four}</p>
+                            <div class="square">
+                                <img src="${project.img_four}" class="d-block img-fluid square__img">
+                            </div>
                         </div>
                         `).join('')}
                     </div>

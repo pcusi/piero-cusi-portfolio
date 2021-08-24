@@ -1,8 +1,14 @@
 @import "variables";
 
+@font-face {
+    font-family: 'SF-Pro';
+    src: url('../asset/fonts/SF-Pro.ttf');
+}
+
 .dark-theme {
     background-color: $dark-1;
     padding-top: 120px;
+    font-family: 'SF-Pro';
 }
 .pc__header {
     margin-bottom: 140px;
@@ -284,6 +290,9 @@
                 font-size: 52px;
                 margin-bottom: 56px;
             }
+            .pc__btn {
+                width: 20%;
+            }
             .pc__flex__tech {
                 p {
                     font-size: 24px;
@@ -296,7 +305,6 @@
             .square {
                 width: 5rem;
                 height: 5rem;
-                background: $primary-1;
             }
         }
     }
@@ -420,10 +428,10 @@
             }
             .pc__flex__tech {
                 p {
-                    display: block;
+                    display: none;
                 }
                 .square {
-                    display: none;
+                    display: block;
                 }
             }
         }
@@ -558,11 +566,11 @@
             }
             .pc__flex__tech {
                 p {
-                    display: block;
+                    display: none;
                     text-align: center;
                 }
                 .square {
-                    display: none;
+                    display: block;
                 }
             }
         }
