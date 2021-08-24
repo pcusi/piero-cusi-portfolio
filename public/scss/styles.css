@@ -93,9 +93,20 @@
   color: #F1ECEC;
   font-weight: bold;
   font-size: 64px;
-  margin-bottom: 140px;
   width: 100%;
   text-align: center;
+  margin-bottom: 32px;
+}
+
+.pc__portfolio .pc__portfolio__items .pc__btn {
+  background: #D32F2F;
+  color: #F1ECEC;
+  font-weight: normal;
+  font-size: 16px;
+  border-radius: 0;
+  padding: 16px 36px;
+  margin-bottom: 140px;
+  width: 15%;
 }
 
 .pc__portfolio .pc__portfolio__items .pc__flex__tech:not(:last-child) {
@@ -438,6 +449,16 @@
   .pc__portfolio .pc__portfolio__items .pc__title {
     margin-bottom: 32px;
   }
+  .pc__portfolio .pc__portfolio__items .pc__btn {
+    background: #D32F2F;
+    color: #F1ECEC;
+    font-weight: normal;
+    font-size: 16px;
+    border-radius: 0;
+    padding: 16px 36px;
+    margin-bottom: 120px;
+    width: 100%;
+  }
   .pc__portfolio .pc__portfolio__items .pc__portfolio__flex {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
@@ -448,6 +469,9 @@
     margin-bottom: 32px;
   }
   .pc__portfolio .pc__portfolio__items .pc__flex__tech p {
+    display: block;
+  }
+  .pc__portfolio .pc__portfolio__items .pc__flex__tech .square {
     display: none;
   }
   .pc__services__jumbotron {
@@ -568,6 +592,16 @@
     margin-bottom: 32px;
     font-size: 32px;
   }
+  .pc__portfolio .pc__portfolio__items .pc__btn {
+    background: #D32F2F;
+    color: #F1ECEC;
+    font-weight: normal;
+    font-size: 16px;
+    border-radius: 0;
+    padding: 16px 36px;
+    margin-bottom: 60px;
+    width: 100%;
+  }
   .pc__portfolio .pc__portfolio__items .pc__portfolio__flex {
     -webkit-box-orient: vertical !important;
     -webkit-box-direction: normal !important;
@@ -578,11 +612,11 @@
     margin-bottom: 32px;
   }
   .pc__portfolio .pc__portfolio__items .pc__flex__tech p {
-    display: none;
+    display: block;
+    text-align: center;
   }
   .pc__portfolio .pc__portfolio__items .pc__flex__tech .square {
-    width: 4rem;
-    height: 4rem;
+    display: none;
   }
   .pc__services__jumbotron {
     margin-bottom: 32px;

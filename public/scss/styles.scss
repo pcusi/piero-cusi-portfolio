@@ -79,9 +79,19 @@
             color: $gray-2;
             font-weight: bold;
             font-size: 64px;
-            margin-bottom: 140px;
             width: 100%;
             text-align: center;
+            margin-bottom: 32px;
+        }
+        .pc__btn {
+            background: $primary-1;
+            color: $gray-2;
+            font-weight: normal;
+            font-size: 16px;
+            border-radius: 0;
+            padding: 16px 36px;
+            margin-bottom: 140px;
+            width: 15%;
         }
         .pc__flex__tech {
             &:not(:last-child) {
@@ -386,6 +396,16 @@
             .pc__title {
                 margin-bottom: 32px;
             }
+            .pc__btn {
+                background: $primary-1;
+                color: $gray-2;
+                font-weight: normal;
+                font-size: 16px;
+                border-radius: 0;
+                padding: 16px 36px;
+                margin-bottom: 120px;
+                width: 100%;
+            }
             .pc__portfolio__flex {
                 flex-direction: column !important;
             }
@@ -394,6 +414,9 @@
             }
             .pc__flex__tech {
                 p {
+                    display: block;
+                }
+                .square {
                     display: none;
                 }
             }
@@ -511,6 +534,16 @@
                 margin-bottom: 32px;
                 font-size: 32px;
             }
+            .pc__btn {
+                background: $primary-1;
+                color: $gray-2;
+                font-weight: normal;
+                font-size: 16px;
+                border-radius: 0;
+                padding: 16px 36px;
+                margin-bottom: 60px;
+                width: 100%;
+            }
             .pc__portfolio__flex {
                 flex-direction: column !important;
             }
@@ -519,11 +552,11 @@
             }
             .pc__flex__tech {
                 p {
-                    display: none;
+                    display: block;
+                    text-align: center;
                 }
                 .square {
-                    width: 4rem;
-                    height: 4rem;
+                    display: none;
                 }
             }
         }

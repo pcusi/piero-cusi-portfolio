@@ -1,6 +1,58 @@
 function myPortfolioProjects() {
     const portfolio = [
         {
+            "title": "QYPU",
+            "img": "public/asset/img/piero_cusi_qypu.png",
+            "technologies": [
+                {
+                    "first": "UX Research",
+                    "second": "Benchmark",
+                    "third": "Wireframes",
+                    "four": "Copy writing"
+                }
+            ],
+            "link": "https://www.behance.net/gallery/125975265/QYPU-Sistema-de-Gestion-de-Proyectos"
+        },
+        {
+            "title": "Activities and Notifications System",
+            "img": "public/asset/img/piero_cusi_noti.png",
+            "technologies": [
+                {
+                    "first": "UX Research",
+                    "second": "Benchmark",
+                    "third": "Wireframes",
+                    "four": "Copy writing"
+                }
+            ],
+            "link": "https://www.behance.net/gallery/125971815/Sistema-de-Gestion-de-Actividades-y-Notificaciones"
+        },
+        {
+            "title": "Human Resources System",
+            "img": "public/asset/img/piero_cusi_rrhh.png",
+            "technologies": [
+                {
+                    "first": "UX Research",
+                    "second": "Benchmark",
+                    "third": "Wireframes",
+                    "four": "Copy writing"
+                }
+            ],
+            "link": "https://www.behance.net/gallery/125972051/CRM-Sistema-de-recursos-humanos"
+        },
+        {
+            "title": "SCJ Outsourcing",
+            "img": "public/asset/img/piero_cusi_scj.png",
+            "technologies": [
+                {
+                    "first": "Wireframes",
+                    "second": "Research",
+                    "third": "User test",
+                    "four": "UX interaction"
+                }
+            ],
+            "link": "https://www.behance.net/gallery/125975999/SCJ-Outsourcing"
+        },
+        {
             "title": "Weather Web",
             "img": "public/asset/img/piero_cusi_weather_web.png",
             "technologies": [
@@ -22,7 +74,8 @@ function myPortfolioProjects() {
                     "third": "JS",
                     "four": "Bootstrap"
                 }
-            ]
+            ],
+            "link": "https://pcusi.github.io/inka-expert-travel/"
         },
         {
             "title": "Carolina de Rossi",
@@ -34,7 +87,8 @@ function myPortfolioProjects() {
                     "third": "CSS",
                     "four": "PHP"
                 }
-            ]
+            ],
+            "link": "https://www.carolinaderossi.com/"
         }
     ];
     const portfolioDiv = document.getElementById("portfolio");
@@ -44,6 +98,7 @@ function myPortfolioProjects() {
         `
             <div class="pc__portfolio__items">
                 <h1 class="pc__title">${project.title}</h1>
+                <a class="btn pc__btn d-block mx-auto" href="${project.link}" target="_blank">Watch project</a>
                 <div class="d-flex justify-content-between ${index % 2 == 0 ? 'flex-row' : 'flex-row-reverse'} align-items-center pc__portfolio__flex">
                     <img src="${project.img}" class="d-block img-fluid pc__img__tech" alt="Piero Cusi">
                     <div class="d-flex flex-column align-items-end">
@@ -84,7 +139,7 @@ function myServices() {
         },
         {
             "img": "public/asset/img/piero_cusi_ui_design.png",
-            "title": "UI Design Prototype",
+            "title": "UX Design Solutions",
         }
     ]
 
