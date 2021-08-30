@@ -82,7 +82,8 @@ function myPortfolioProjects() {
             "img_first": "public/asset/img/piero_cusi_angular.png",
             "img_second": "public/asset/img/piero_cusi_sass.png",
             "img_third": "public/asset/img/piero_cusi_bootstrap.png",
-            "img_four": "public/asset/img/piero_cusi_openweather.png"
+            "img_four": "public/asset/img/piero_cusi_openweather.png",
+            "link": "https://weather-app-cc3c9.web.app"
         },
         {
             "title": "Inca Expert Travel",
