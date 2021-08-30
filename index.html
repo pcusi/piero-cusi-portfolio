@@ -7,10 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/scss/styles.css">
     <link rel="stylesheet" href="public/scss/bootstrap.min.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/asset/img/piero_cusi_logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/asset/img/piero_cusi_logo.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="public/asset/img/piero_cusi_logo.png">
     <title>Piero Cusi - Frontend Developer</title>
-    <meta name="description" content="Arte abstracto en dibujo y pintura que transmite el movimiento continuo de la vida a través del color - Carolina de Rossi Artista.">
+    <meta name="description" content="Frontend and UX Designer based en Lima, Perú - Piero Cusi.">
+    <META NAME="reply-to" CONTENT="pcusir@gmail.com">
+    <link rev="made" href="mailto:pcusir@gmail.com">
     <meta name="author" content="Piero Cusi">
-    <meta name="keywords" content="Piero Cusi, pc">
+    <meta name="keywords" content="Piero Cusi, pc, Frontend, UX">
+    <meta name="copyright" content="Piero Cusi, Derechos Reservados">
+
 </head>
 
 <body class="dark-theme">
@@ -20,7 +27,10 @@
             <a class="navbar-brand" href="#">
                 <img src="public/asset/img/piero_cusi_logo.png" class="d-block img-fluid" alt="Piero Cusi">
             </a>
-            <div class="collapse navbar-collapse">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#piero-cusi-navbar">
+                <img src="public/asset/img/piero_cusi_menu.png" class="d-block img-fluid" alt="Piero Cusi">
+              </button>
+            <div class="collapse navbar-collapse" id="piero-cusi-navbar">
                 <ul class="navbar-nav ms-auto pc__nav">
                     <li class="nav-item"><a href="#portfolio" class="nav-link" id="sticky-link">Works</a></li>
                     <li class="nav-item"><a href="#my-services" class="nav-link" id="sticky-link">Services</a></li>
@@ -61,5 +71,7 @@
     <!-- End clients -->
 </body>
 </html>
+<script src="public/js/popper.min.js"></script>
+<script src="public/js/bootstrap.min.js"></script>
 <script src="public/js/app.js"></script>
 <script src="public/js/scroll.js"></script>

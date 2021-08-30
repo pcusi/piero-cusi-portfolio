@@ -118,7 +118,41 @@ function myPortfolioProjects() {
             "img_third": "public/asset/img/piero_cusi_css.png",
             "img_four": "public/asset/img/piero_cusi_php.png",
             "link": "https://www.carolinaderossi.com/"
-        }
+        },
+        {
+            "title": "Feria la Comunidá",
+            "img": "public/asset/img/piero_cusi_feria.png",
+            "technologies": [
+                {
+                    "first": "Angular",
+                    "second": "MySQL",
+                    "third": "Node",
+                    "four": "Bootstrap"
+                }
+            ],
+            "img_first": "public/asset/img/piero_cusi_angular.png",
+            "img_second": "public/asset/img/piero_cusi_mysql.png",
+            "img_third": "public/asset/img/piero_cusi_node.png",
+            "img_four": "public/asset/img/piero_cusi_bootstrap.png",
+            "link": "https://market-comunida.web.app/"
+        },
+        {
+            "title": "Flutter Ecommerce Template",
+            "img": "public/asset/img/piero_cusi_ecommerce_app.png",
+            "technologies": [
+                {
+                    "first": "Flutter",
+                    "second": "Git",
+                    "third": "Figma",
+                    "four": "Secret"
+                }
+            ],
+            "img_first": "public/asset/img/piero_cusi_flutter.png",
+            "img_second": "public/asset/img/piero_cusi_git.png",
+            "img_third": "public/asset/img/piero_cusi_figma.png",
+            "img_four": "public/asset/img/piero_cusi_secret.png",
+            "link": "https://github.com/pcusi/flutter-ecommerce-template"
+        },
     ];
     const portfolioDiv = document.getElementById("portfolio");
 
