@@ -1,74 +1,6 @@
 function myPortfolioProjects() {
     const portfolio = [
         {
-            "title": "QYPU",
-            "img": "public/asset/img/piero_cusi_qypu.png",
-            "technologies": [
-                {
-                    "first": "UX Research",
-                    "second": "Benchmark",
-                    "third": "Wireframes",
-                    "four": "Copy writing"
-                },
-            ],
-            "img_first": "public/asset/img/piero_cusi_research.png",
-            "img_second": "public/asset/img/piero_cusi_benchmark.png",
-            "img_third": "public/asset/img/piero_cusi_wireframe.png",
-            "img_four": "public/asset/img/piero_cusi_copy.png",
-            "link": "https://www.behance.net/gallery/125975265/QYPU-Sistema-de-Gestion-de-Proyectos"
-        },
-        {
-            "title": "Activities and Notifications System",
-            "img": "public/asset/img/piero_cusi_noti.png",
-            "technologies": [
-                {
-                    "first": "UX Research",
-                    "second": "Benchmark",
-                    "third": "Wireframes",
-                    "four": "Copy writing"
-                }
-            ],
-            "img_first": "public/asset/img/piero_cusi_research.png",
-            "img_second": "public/asset/img/piero_cusi_benchmark.png",
-            "img_third": "public/asset/img/piero_cusi_wireframe.png",
-            "img_four": "public/asset/img/piero_cusi_copy.png",
-            "link": "https://www.behance.net/gallery/125971815/Sistema-de-Gestion-de-Actividades-y-Notificaciones"
-        },
-        {
-            "title": "Human Resources System",
-            "img": "public/asset/img/piero_cusi_rrhh.png",
-            "technologies": [
-                {
-                    "first": "UX Research",
-                    "second": "Benchmark",
-                    "third": "Wireframes",
-                    "four": "Copy writing"
-                }
-            ],
-            "img_first": "public/asset/img/piero_cusi_research.png",
-            "img_second": "public/asset/img/piero_cusi_benchmark.png",
-            "img_third": "public/asset/img/piero_cusi_wireframe.png",
-            "img_four": "public/asset/img/piero_cusi_copy.png",
-            "link": "https://www.behance.net/gallery/125972051/CRM-Sistema-de-recursos-humanos"
-        },
-        {
-            "title": "SCJ Outsourcing",
-            "img": "public/asset/img/piero_cusi_scj.png",
-            "technologies": [
-                {
-                    "first": "Wireframes",
-                    "second": "Research",
-                    "third": "User test",
-                    "four": "UX interaction"
-                }
-            ],
-            "img_first": "public/asset/img/piero_cusi_wireframe.png",
-            "img_second": "public/asset/img/piero_cusi_research.png",
-            "img_third": "public/asset/img/piero_cusi_user_test.png",
-            "img_four": "public/asset/img/piero_cusi_interaction.png",
-            "link": "https://www.behance.net/gallery/125975999/SCJ-Outsourcing"
-        },
-        {
             "title": "Weather Web",
             "img": "public/asset/img/piero_cusi_weather_web.png",
             "technologies": [
@@ -152,6 +84,40 @@ function myPortfolioProjects() {
             "img_third": "public/asset/img/piero_cusi_figma.png",
             "img_four": "public/asset/img/piero_cusi_secret.png",
             "link": "https://github.com/pcusi/flutter-ecommerce-template"
+        },
+        {
+            "title": "Nike Shoes Template",
+            "img": "public/asset/img/piero_cusi_nike.png",
+            "technologies": [
+                {
+                    "first": "Flutter",
+                    "second": "Git",
+                    "third": "Figma",
+                    "four": "Secret"
+                }
+            ],
+            "img_first": "public/asset/img/piero_cusi_flutter.png",
+            "img_second": "public/asset/img/piero_cusi_git.png",
+            "img_third": "public/asset/img/piero_cusi_figma.png",
+            "img_four": "public/asset/img/piero_cusi_secret.png",
+            "link": "https://github.com/pcusi/nike-app"
+        },
+        {
+            "title": "3D App Template",
+            "img": "public/asset/img/piero_cusi_3d.png",
+            "technologies": [
+                {
+                    "first": "Flutter",
+                    "second": "Git",
+                    "third": "Figma",
+                    "four": "Secret"
+                }
+            ],
+            "img_first": "public/asset/img/piero_cusi_flutter.png",
+            "img_second": "public/asset/img/piero_cusi_git.png",
+            "img_third": "public/asset/img/piero_cusi_figma.png",
+            "img_four": "public/asset/img/piero_cusi_secret.png",
+            "link": "https://github.com/pcusi/flutter-diff-apps"
         },
     ];
     const portfolioDiv = document.getElementById("portfolio");
