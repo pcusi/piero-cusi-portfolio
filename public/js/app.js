@@ -1,6 +1,23 @@
 function myPortfolioProjects() {
     const portfolio = [
         {
+            "title": "Nexo Cash",
+            "img": "public/asset/img/piero_cusi_nexo_cash.png",
+            "technologies": [
+                {
+                    "first": "HTML",
+                    "second": "JS",
+                    "third": "Sass",
+                    "four": "PHP"
+                }
+            ],
+            "img_first": "public/asset/img/piero_cusi_html.png",
+            "img_second": "public/asset/img/piero_cusi_js.png",
+            "img_third": "public/asset/img/piero_cusi_sass.png",
+            "img_four": "public/asset/img/piero_cusi_php.png",
+            "link": "https://nexocash.pe/"
+        },
+        {
             "title": "Weather Web",
             "img": "public/asset/img/piero_cusi_weather_web.png",
             "technologies": [
